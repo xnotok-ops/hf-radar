@@ -1,0 +1,179 @@
+/**
+ * HF Radar - Generate Digest
+ */
+
+const fs = require("fs");
+const path = require("path");
+const { formatNum } = require("./fetch-trending");
+const { getWeeklyTrending, getMonthlyConsistent } = require("./history-tracker");
+
+function getToday() {
+  return new Date().toISOString().split("T")[0];
+}
+
+function generateMarkdown(data) {
+  const today = getToday();
+  const totalItems = Object.values(data).reduce((sum, cat) => sum + cat.items.length, 0);
+  const weeklyTrending = getWeeklyTrending();
+  const monthlyConsistent = getMonthlyConsistent();
+
+  let md = "";
+
+  md += `# 🤗 HF Radar — Daily Digest\n\n`;
+  md += `**Date:** ${today}  \n`;
+  md += `**Items tracked:** ${totalItems} (models + datasets + spaces)  \n`;
+  md += `**Weekly persistent:** ${weeklyTrending.length} | **Monthly consistent:** ${monthlyConsistent.length}  \n\n`;
+  md += `---\n\n`;
+
+  md += `## Contents\n\n`;
+  md += `- [Weekly Persistent](#weekly-persistent)\n`;
+  md += `- [Monthly Consistent](#monthly-consistent)\n`;
+  for (const [id, cat] of Object.entries(data)) {
+    md += `- [${cat.name}](#${id}) (${cat.items.length})\n`;
+  }
+  md += `\n---\n\n`;
+
+  // Weekly
+  md += `## 📅 Weekly Persistent\n\n`;
+  md += `> Items trending **3+ days in the last 7 days**.\n\n`;
+  if (weeklyTrending.length > 0) {
+    md += `| # | Item | ❤️ Likes | Days (7d) | Status |\n`;
+    md += `|---|------|---------|-----------|--------|\n`;
+    weeklyTrending.forEach((r, i) => {
+      const status = r.appearances >= 6 ? "🔥 Dominant" : r.appearances >= 4 ? "📈 Strong" : "✅ Steady";
+      md += `| ${i + 1} | [${r.name}](${r.url}) | ${formatNum(r.likes)} | ${r.appearances}/7 | ${status} |\n`;
+    });
+    md += `\n`;
+  } else {
+    md += `*Not enough data yet — need 3+ days of digests.*\n\n`;
+  }
+  md += `---\n\n`;
+
+  // Monthly
+  md += `## 📆 Monthly Consistent\n\n`;
+  md += `> Items trending **10+ days in the last 30 days**.\n\n`;
+  if (monthlyConsistent.length > 0) {
+    md += `| # | Item | ❤️ Likes | Days (30d) | Verdict |\n`;
+    md += `|---|------|---------|------------|--------|\n`;
+    monthlyConsistent.forEach((r, i) => {
+      const verdict = r.appearances >= 20 ? "🏆 Dominant" : r.appearances >= 15 ? "💎 Solid" : "📊 Consistent";
+      md += `| ${i + 1} | [${r.name}](${r.url}) | ${formatNum(r.likes)} | ${r.appearances}/30 | ${verdict} |\n`;
+    });
+    md += `\n`;
+  } else {
+    md += `*Not enough data yet — need 10+ days of digests.*\n\n`;
+  }
+  md += `---\n\n`;
+
+  // Models
+  if (data.models && data.models.items.length > 0) {
+    md += `## 🧠 ${data.models.name}\n\n`;
+    const top3 = data.models.items.slice(0, 3);
+    top3.forEach((m, i) => {
+      const medal = ["🥇", "🥈", "🥉"][i];
+      md += `${medal} **[${m.name}](${m.url})**  \n`;
+      md += `❤️ ${formatNum(m.likes)} | ⬇️ ${formatNum(m.downloads)} | 🏷️ ${m.pipeline_tag}  \n\n`;
+    });
+
+    md += `### All models\n\n`;
+    md += `| # | Model | ❤️ | ⬇️ Downloads | ⬇️/day | Pipeline | Tags |\n`;
+    md += `|---|-------|-----|-------------|--------|----------|------|\n`;
+    data.models.items.forEach((m, i) => {
+      const tags = m.tags.slice(0, 3).join(", ") || "-";
+      md += `| ${i + 1} | [${m.name}](${m.url}) | ${formatNum(m.likes)} | ${formatNum(m.downloads)} | +${formatNum(m.downloads_per_day)} | ${m.pipeline_tag} | ${tags} |\n`;
+    });
+    md += `\n---\n\n`;
+  }
+
+  // Datasets
+  if (data.datasets && data.datasets.items.length > 0) {
+    md += `## 📦 ${data.datasets.name}\n\n`;
+    const top3 = data.datasets.items.slice(0, 3);
+    top3.forEach((d, i) => {
+      const medal = ["🥇", "🥈", "🥉"][i];
+      md += `${medal} **[${d.name}](${d.url})**  \n`;
+      md += `❤️ ${formatNum(d.likes)} | ⬇️ ${formatNum(d.downloads)}  \n\n`;
+    });
+
+    md += `### All datasets\n\n`;
+    md += `| # | Dataset | ❤️ | ⬇️ Downloads | ⬇️/day |\n`;
+    md += `|---|---------|-----|-------------|--------|\n`;
+    data.datasets.items.forEach((d, i) => {
+      md += `| ${i + 1} | [${d.name}](${d.url}) | ${formatNum(d.likes)} | ${formatNum(d.downloads)} | +${formatNum(d.downloads_per_day)} |\n`;
+    });
+    md += `\n---\n\n`;
+  }
+
+  // Spaces
+  if (data.spaces && data.spaces.items.length > 0) {
+    md += `## 🚀 ${data.spaces.name}\n\n`;
+    const top3 = data.spaces.items.slice(0, 3);
+    top3.forEach((s, i) => {
+      const medal = ["🥇", "🥈", "🥉"][i];
+      md += `${medal} **[${s.name}](${s.url})**  \n`;
+      md += `❤️ ${formatNum(s.likes)} | SDK: ${s.sdk}  \n\n`;
+    });
+
+    md += `### All spaces\n\n`;
+    md += `| # | Space | ❤️ | SDK | Description |\n`;
+    md += `|---|-------|-----|-----|-------------|\n`;
+    data.spaces.items.forEach((s, i) => {
+      const desc = (s.description || "").slice(0, 60);
+      md += `| ${i + 1} | [${s.name}](${s.url}) | ${formatNum(s.likes)} | ${s.sdk} | ${desc} |\n`;
+    });
+    md += `\n---\n\n`;
+  }
+
+  md += `*Generated by [HF Radar](https://github.com/xnotok-ops/hf-radar) — Built by [@xnotok](https://x.com/xnotok)*\n`;
+
+  return md;
+}
+
+function saveDigest(markdown) {
+  const today = getToday();
+  const digestDir = path.join(__dirname, "..", "digests");
+  if (!fs.existsSync(digestDir)) fs.mkdirSync(digestDir, { recursive: true });
+  const filePath = path.join(digestDir, `${today}.md`);
+  fs.writeFileSync(filePath, markdown, "utf-8");
+  console.log(`Digest saved: ${filePath}`);
+  return filePath;
+}
+
+function generateTelegramMessage(data) {
+  const today = getToday();
+  const weeklyTrending = getWeeklyTrending();
+
+  let msg = `🤗 <b>HF Radar — ${today}</b>\n\n`;
+
+  if (data.models && data.models.items.length > 0) {
+    msg += `🧠 <b>Top Models:</b>\n`;
+    data.models.items.slice(0, 3).forEach((m, i) => {
+      msg += `${i + 1}. <a href="${m.url}">${m.name}</a>\n`;
+      msg += `   ❤️ ${formatNum(m.likes)} | ⬇️ ${formatNum(m.downloads)} | ${m.pipeline_tag}\n`;
+    });
+    msg += `\n`;
+  }
+
+  if (data.spaces && data.spaces.items.length > 0) {
+    msg += `🚀 <b>Top Spaces:</b>\n`;
+    data.spaces.items.slice(0, 3).forEach((s, i) => {
+      msg += `${i + 1}. <a href="${s.url}">${s.name}</a> (❤️ ${formatNum(s.likes)})\n`;
+    });
+    msg += `\n`;
+  }
+
+  if (weeklyTrending.length > 0) {
+    msg += `📅 <b>Still trending this week (${weeklyTrending.length}):</b>\n`;
+    weeklyTrending.slice(0, 3).forEach(r => {
+      msg += `• <a href="${r.url}">${r.name}</a> (${r.appearances}/7 days)\n`;
+    });
+    msg += `\n`;
+  }
+
+  msg += `📄 Full: https://xnotok-ops.github.io/hf-radar`;
+  msg += `\n\n<i>by @xnotok</i>`;
+
+  return msg;
+}
+
+module.exports = { generateMarkdown, saveDigest, generateTelegramMessage };
