@@ -1,22 +1,22 @@
 /**
- * HF Radar - Fetch Trending from Hugging Face (v3 - fixed params)
+ * HF Radar - Fetch Trending from Hugging Face (v4 - fixed sort)
  */
 
 const CATEGORIES = [
   {
     id: "models",
     name: "Trending Models",
-    endpoint: "https://huggingface.co/api/models?sort=trending&limit=20",
+    endpoint: "https://huggingface.co/api/models?sort=likes&limit=20&full=false",
   },
   {
     id: "datasets",
     name: "Trending Datasets",
-    endpoint: "https://huggingface.co/api/datasets?sort=trending&limit=20",
+    endpoint: "https://huggingface.co/api/datasets?sort=likes&limit=20&full=false",
   },
   {
     id: "spaces",
     name: "Trending Spaces",
-    endpoint: "https://huggingface.co/api/spaces?sort=trending&limit=20",
+    endpoint: "https://huggingface.co/api/spaces?sort=likes&limit=20&full=false",
   },
 ];
 
