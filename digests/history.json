@@ -1,373 +1,5 @@
 {
   "daily": {
-    "2026-08-16": {
-      "models": [
-        {
-          "id": "black-forest-labs/FLUX.1-dev",
-          "name": "black-forest-labs/FLUX.1-dev",
-          "likes": 14144,
-          "downloads": 546710,
-          "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "description": "text-to-image"
-        },
-        {
-          "id": "deepseek-ai/DeepSeek-R1",
-          "name": "deepseek-ai/DeepSeek-R1",
-          "likes": 13574,
-          "downloads": 7735520,
-          "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-          "description": "text-generation"
-        },
-        {
-          "id": "moonshotai/Kimi-K3",
-          "name": "moonshotai/Kimi-K3",
-          "likes": 10729,
-          "downloads": 2100680,
-          "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "description": "image-text-to-text"
-        },
-        {
-          "id": "Qwen/Qwen3.8-27B",
-          "name": "Qwen/Qwen3.8-27B",
-          "likes": 9818,
-          "downloads": 91917,
-          "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "description": "image-text-to-text"
-        },
-        {
-          "id": "stabilityai/stable-diffusion-xl-base-1.0",
-          "name": "stabilityai/stable-diffusion-xl-base-1.0",
-          "likes": 8044,
-          "downloads": 1531109,
-          "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-          "description": "text-to-image"
-        },
-        {
-          "id": "CompVis/stable-diffusion-v1-4",
-          "name": "CompVis/stable-diffusion-v1-4",
-          "likes": 7053,
-          "downloads": 440022,
-          "url": "https://huggingface.co/CompVis/stable-diffusion-v1-4",
-          "description": "text-to-image"
-        },
-        {
-          "id": "hexgrad/Kokoro-82M",
-          "name": "hexgrad/Kokoro-82M",
-          "likes": 6697,
-          "downloads": 12326093,
-          "url": "https://huggingface.co/hexgrad/Kokoro-82M",
-          "description": "text-to-speech"
-        },
-        {
-          "id": "meta-llama/Meta-Llama-3-8B",
-          "name": "meta-llama/Meta-Llama-3-8B",
-          "likes": 6629,
-          "downloads": 1819693,
-          "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
-          "description": "text-generation"
-        },
-        {
-          "id": "meta-llama/Llama-3.1-8B-Instruct",
-          "name": "meta-llama/Llama-3.1-8B-Instruct",
-          "likes": 6611,
-          "downloads": 7614661,
-          "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-          "description": "text-generation"
-        },
-        {
-          "id": "openai/whisper-large-v3",
-          "name": "openai/whisper-large-v3",
-          "likes": 6148,
-          "downloads": 5075565,
-          "url": "https://huggingface.co/openai/whisper-large-v3",
-          "description": "automatic-speech-recognition"
-        },
-        {
-          "id": "black-forest-labs/FLUX.1-schnell",
-          "name": "black-forest-labs/FLUX.1-schnell",
-          "likes": 5544,
-          "downloads": 297522,
-          "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
-          "description": "text-to-image"
-        },
-        {
-          "id": "deepseek-ai/DeepSeek-V4-Pro",
-          "name": "deepseek-ai/DeepSeek-V4-Pro",
-          "likes": 5444,
-          "downloads": 1313358,
-          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
-          "description": "text-generation"
-        },
-        {
-          "id": "sentence-transformers/all-MiniLM-L6-v2",
-          "name": "sentence-transformers/all-MiniLM-L6-v2",
-          "likes": 5209,
-          "downloads": 259675300,
-          "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
-          "description": "sentence-similarity"
-        },
-        {
-          "id": "Tongyi-MAI/Z-Image-Turbo",
-          "name": "Tongyi-MAI/Z-Image-Turbo",
-          "likes": 5113,
-          "downloads": 919240,
-          "url": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo",
-          "description": "text-to-image"
-        },
-        {
-          "id": "openai/gpt-oss-120b",
-          "name": "openai/gpt-oss-120b",
-          "likes": 5105,
-          "downloads": 4444318,
-          "url": "https://huggingface.co/openai/gpt-oss-120b",
-          "description": "text-generation"
-        }
-      ],
-      "datasets": [
-        {
-          "id": "fka/prompts.chat",
-          "name": "fka/prompts.chat",
-          "likes": 9783,
-          "downloads": 32267,
-          "url": "https://huggingface.co/datasets/fka/prompts.chat",
-          "description": "Dataset"
-        },
-        {
-          "id": "HuggingFaceFW/fineweb",
-          "name": "HuggingFaceFW/fineweb",
-          "likes": 3211,
-          "downloads": 418229,
-          "url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb",
-          "description": "Dataset"
-        },
-        {
-          "id": "Anthropic/hh-rlhf",
-          "name": "Anthropic/hh-rlhf",
-          "likes": 1976,
-          "downloads": 33738,
-          "url": "https://huggingface.co/datasets/Anthropic/hh-rlhf",
-          "description": "Dataset"
-        },
-        {
-          "id": "Open-Orca/OpenOrca",
-          "name": "Open-Orca/OpenOrca",
-          "likes": 1582,
-          "downloads": 20179,
-          "url": "https://huggingface.co/datasets/Open-Orca/OpenOrca",
-          "description": "Dataset"
-        },
-        {
-          "id": "openai/gsm8k",
-          "name": "openai/gsm8k",
-          "likes": 1567,
-          "downloads": 1004076,
-          "url": "https://huggingface.co/datasets/openai/gsm8k",
-          "description": "Dataset"
-        },
-        {
-          "id": "OpenAssistant/oasst1",
-          "name": "OpenAssistant/oasst1",
-          "likes": 1559,
-          "downloads": 21688,
-          "url": "https://huggingface.co/datasets/OpenAssistant/oasst1",
-          "description": "Dataset"
-        },
-        {
-          "id": "wikimedia/wikipedia",
-          "name": "wikimedia/wikipedia",
-          "likes": 1369,
-          "downloads": 228662,
-          "url": "https://huggingface.co/datasets/wikimedia/wikipedia",
-          "description": "Dataset"
-        },
-        {
-          "id": "HuggingFaceFW/fineweb-edu",
-          "name": "HuggingFaceFW/fineweb-edu",
-          "likes": 1259,
-          "downloads": 403783,
-          "url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu",
-          "description": "Dataset"
-        },
-        {
-          "id": "gsdf/EasyNegative",
-          "name": "gsdf/EasyNegative",
-          "likes": 1208,
-          "downloads": 22497,
-          "url": "https://huggingface.co/datasets/gsdf/EasyNegative",
-          "description": "Dataset"
-        },
-        {
-          "id": "togethercomputer/RedPajama-Data-1T",
-          "name": "togethercomputer/RedPajama-Data-1T",
-          "likes": 1187,
-          "downloads": 1939,
-          "url": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T",
-          "description": "Dataset"
-        },
-        {
-          "id": "FreedomIntelligence/medical-o1-reasoning-SFT",
-          "name": "FreedomIntelligence/medical-o1-reasoning-SFT",
-          "likes": 1167,
-          "downloads": 15617,
-          "url": "https://huggingface.co/datasets/FreedomIntelligence/medical-o1-reasoning-SFT",
-          "description": "Dataset"
-        },
-        {
-          "id": "roneneldan/TinyStories",
-          "name": "roneneldan/TinyStories",
-          "likes": 1114,
-          "downloads": 94684,
-          "url": "https://huggingface.co/datasets/roneneldan/TinyStories",
-          "description": "Dataset"
-        },
-        {
-          "id": "tatsu-lab/alpaca",
-          "name": "tatsu-lab/alpaca",
-          "likes": 1093,
-          "downloads": 83298,
-          "url": "https://huggingface.co/datasets/tatsu-lab/alpaca",
-          "description": "Dataset"
-        },
-        {
-          "id": "databricks/databricks-dolly-15k",
-          "name": "databricks/databricks-dolly-15k",
-          "likes": 1075,
-          "downloads": 43318,
-          "url": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
-          "description": "Dataset"
-        },
-        {
-          "id": "allenai/dolma",
-          "name": "allenai/dolma",
-          "likes": 1070,
-          "downloads": 2870,
-          "url": "https://huggingface.co/datasets/allenai/dolma",
-          "description": "Dataset"
-        }
-      ],
-      "spaces": [
-        {
-          "id": "enzostvs/deepsite",
-          "name": "enzostvs/deepsite",
-          "likes": 16610,
-          "downloads": 0,
-          "url": "https://huggingface.co/spaces/enzostvs/deepsite",
-          "description": "docker"
-        },
-        {
-          "id": "open-llm-leaderboard/open_llm_leaderboard",
-          "name": "open-llm-leaderboard/open_llm_leaderboard",
-          "likes": 14075,
-          "downloads": 0,
-          "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
-          "description": "docker"
-        },
-        {
-          "id": "jbilcke-hf/ai-comic-factory",
-          "name": "jbilcke-hf/ai-comic-factory",
-          "likes": 11213,
-          "downloads": 0,
-          "url": "https://huggingface.co/spaces/jbilcke-hf/ai-comic-factory",
-          "description": "docker"
-        },
-        {
-          "id": "Kwai-Kolors/Kolors-Virtual-Try-On",
-          "name": "Kwai-Kolors/Kolors-Virtual-Try-On",
-          "likes": 10159,
-          "downloads": 0,
-          "url": "https://huggingface.co/spaces/Kwai-Kolors/Kolors-Virtual-Try-On",
-          "description": "gradio"
-        },
-        {
-          "id": "black-forest-labs/FLUX.1-dev",
-          "name": "black-forest-labs/FLUX.1-dev",
-          "likes": 9512,
-          "downloads": 0,
-          "url": "https://huggingface.co/spaces/black-forest-labs/FLUX.1-dev",
-          "description": "gradio"
-        },
-        {
-          "id": "mteb/leaderboard",
-          "name": "mteb/leaderboard",
-          "likes": 7616,
-          "downloads": 0,
-          "url": "https://huggingface.co/spaces/mteb/leaderboard",
-          "description": "docker"
-        },
-        {
-          "id": "dalle-mini/dalle-mini",
-          "name": "dalle-mini/dalle-mini",
-          "likes": 5712,
-          "downloads": 0,
-          "url": "https://huggingface.co/spaces/dalle-mini/dalle-mini",
-          "description": "static"
-        },
-        {
-          "id": "AP123/IllusionDiffusion",
-          "name": "AP123/IllusionDiffusion",
-          "likes": 5428,
-          "downloads": 0,
-          "url": "https://huggingface.co/spaces/AP123/IllusionDiffusion",
-          "description": "gradio"
-        },
-        {
-          "id": "black-forest-labs/FLUX.1-schnell",
-          "name": "black-forest-labs/FLUX.1-schnell",
-          "likes": 5109,
-          "downloads": 0,
-          "url": "https://huggingface.co/spaces/black-forest-labs/FLUX.1-schnell",
-          "description": "gradio"
-        },
-        {
-          "id": "facebook/MusicGen",
-          "name": "facebook/MusicGen",
-          "likes": 5083,
-          "downloads": 0,
-          "url": "https://huggingface.co/spaces/facebook/MusicGen",
-          "description": "gradio"
-        },
-        {
-          "id": "lmarena-ai/arena-leaderboard",
-          "name": "lmarena-ai/arena-leaderboard",
-          "likes": 4971,
-          "downloads": 0,
-          "url": "https://huggingface.co/spaces/lmarena-ai/arena-leaderboard",
-          "description": "static"
-        },
-        {
-          "id": "microsoft/TRELLIS",
-          "name": "microsoft/TRELLIS",
-          "likes": 4775,
-          "downloads": 0,
-          "url": "https://huggingface.co/spaces/microsoft/TRELLIS",
-          "description": "gradio"
-        },
-        {
-          "id": "KingNish/OpenGPT-4o",
-          "name": "KingNish/OpenGPT-4o",
-          "likes": 4306,
-          "downloads": 0,
-          "url": "https://huggingface.co/spaces/KingNish/OpenGPT-4o",
-          "description": "gradio"
-        },
-        {
-          "id": "nanotron/ultrascale-playbook",
-          "name": "nanotron/ultrascale-playbook",
-          "likes": 3981,
-          "downloads": 0,
-          "url": "https://huggingface.co/spaces/nanotron/ultrascale-playbook",
-          "description": "static"
-        },
-        {
-          "id": "KlingTeam/LivePortrait",
-          "name": "KlingTeam/LivePortrait",
-          "likes": 3777,
-          "downloads": 0,
-          "url": "https://huggingface.co/spaces/KlingTeam/LivePortrait",
-          "description": "gradio"
-        }
-      ]
-    },
     "2026-08-17": {
       "models": [
         {
@@ -13247,86 +12879,454 @@
           "description": "gradio"
         }
       ]
+    },
+    "2026-09-21": {
+      "models": [
+        {
+          "id": "Qwen/Qwen3.8-27B",
+          "name": "Qwen/Qwen3.8-27B",
+          "likes": 15877,
+          "downloads": 7331932,
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+          "description": "image-text-to-text"
+        },
+        {
+          "id": "black-forest-labs/FLUX.1-dev",
+          "name": "black-forest-labs/FLUX.1-dev",
+          "likes": 14860,
+          "downloads": 751072,
+          "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+          "description": "text-to-image"
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-R1",
+          "name": "deepseek-ai/DeepSeek-R1",
+          "likes": 14274,
+          "downloads": 772985,
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+          "description": "text-generation"
+        },
+        {
+          "id": "moonshotai/Kimi-K3",
+          "name": "moonshotai/Kimi-K3",
+          "likes": 11451,
+          "downloads": 2011419,
+          "url": "https://huggingface.co/moonshotai/Kimi-K3",
+          "description": "image-text-to-text"
+        },
+        {
+          "id": "stabilityai/stable-diffusion-xl-base-1.0",
+          "name": "stabilityai/stable-diffusion-xl-base-1.0",
+          "likes": 8203,
+          "downloads": 3088510,
+          "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+          "description": "text-to-image"
+        },
+        {
+          "id": "meta-llama/Llama-3.1-8B-Instruct",
+          "name": "meta-llama/Llama-3.1-8B-Instruct",
+          "likes": 7776,
+          "downloads": 5910102,
+          "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+          "description": "text-generation"
+        },
+        {
+          "id": "CompVis/stable-diffusion-v1-4",
+          "name": "CompVis/stable-diffusion-v1-4",
+          "likes": 7092,
+          "downloads": 650051,
+          "url": "https://huggingface.co/CompVis/stable-diffusion-v1-4",
+          "description": "text-to-image"
+        },
+        {
+          "id": "hexgrad/Kokoro-82M",
+          "name": "hexgrad/Kokoro-82M",
+          "likes": 6969,
+          "downloads": 11620163,
+          "url": "https://huggingface.co/hexgrad/Kokoro-82M",
+          "description": "text-to-speech"
+        },
+        {
+          "id": "meta-llama/Meta-Llama-3-8B",
+          "name": "meta-llama/Meta-Llama-3-8B",
+          "likes": 6691,
+          "downloads": 275232,
+          "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
+          "description": "text-generation"
+        },
+        {
+          "id": "openai/whisper-large-v3",
+          "name": "openai/whisper-large-v3",
+          "likes": 6326,
+          "downloads": 4650439,
+          "url": "https://huggingface.co/openai/whisper-large-v3",
+          "description": "automatic-speech-recognition"
+        },
+        {
+          "id": "sentence-transformers/all-MiniLM-L6-v2",
+          "name": "sentence-transformers/all-MiniLM-L6-v2",
+          "likes": 6093,
+          "downloads": 252170882,
+          "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+          "description": "sentence-similarity"
+        },
+        {
+          "id": "black-forest-labs/FLUX.1-schnell",
+          "name": "black-forest-labs/FLUX.1-schnell",
+          "likes": 5945,
+          "downloads": 574406,
+          "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+          "description": "text-to-image"
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V4-Pro",
+          "name": "deepseek-ai/DeepSeek-V4-Pro",
+          "likes": 5583,
+          "downloads": 569497,
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+          "description": "text-generation"
+        },
+        {
+          "id": "MiniMaxAI/MiniMax-H3",
+          "name": "MiniMaxAI/MiniMax-H3",
+          "likes": 5536,
+          "downloads": 4057444,
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+          "description": "image-text-to-video"
+        },
+        {
+          "id": "Qwen/Qwen3.8-Flash-Next",
+          "name": "Qwen/Qwen3.8-Flash-Next",
+          "likes": 5507,
+          "downloads": 761112,
+          "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+          "description": "image-text-to-text"
+        }
+      ],
+      "datasets": [
+        {
+          "id": "fka/prompts.chat",
+          "name": "fka/prompts.chat",
+          "likes": 9837,
+          "downloads": 22609,
+          "url": "https://huggingface.co/datasets/fka/prompts.chat",
+          "description": "Dataset"
+        },
+        {
+          "id": "HuggingFaceFW/fineweb",
+          "name": "HuggingFaceFW/fineweb",
+          "likes": 3357,
+          "downloads": 398519,
+          "url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb",
+          "description": "Dataset"
+        },
+        {
+          "id": "Anthropic/hh-rlhf",
+          "name": "Anthropic/hh-rlhf",
+          "likes": 2091,
+          "downloads": 37941,
+          "url": "https://huggingface.co/datasets/Anthropic/hh-rlhf",
+          "description": "Dataset"
+        },
+        {
+          "id": "openai/gsm8k",
+          "name": "openai/gsm8k",
+          "likes": 1656,
+          "downloads": 1221924,
+          "url": "https://huggingface.co/datasets/openai/gsm8k",
+          "description": "Dataset"
+        },
+        {
+          "id": "Open-Orca/OpenOrca",
+          "name": "Open-Orca/OpenOrca",
+          "likes": 1605,
+          "downloads": 23642,
+          "url": "https://huggingface.co/datasets/Open-Orca/OpenOrca",
+          "description": "Dataset"
+        },
+        {
+          "id": "OpenAssistant/oasst1",
+          "name": "OpenAssistant/oasst1",
+          "likes": 1579,
+          "downloads": 42978,
+          "url": "https://huggingface.co/datasets/OpenAssistant/oasst1",
+          "description": "Dataset"
+        },
+        {
+          "id": "wikimedia/wikipedia",
+          "name": "wikimedia/wikipedia",
+          "likes": 1491,
+          "downloads": 258176,
+          "url": "https://huggingface.co/datasets/wikimedia/wikipedia",
+          "description": "Dataset"
+        },
+        {
+          "id": "HuggingFaceFW/fineweb-edu",
+          "name": "HuggingFaceFW/fineweb-edu",
+          "likes": 1295,
+          "downloads": 425810,
+          "url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu",
+          "description": "Dataset"
+        },
+        {
+          "id": "gsdf/EasyNegative",
+          "name": "gsdf/EasyNegative",
+          "likes": 1225,
+          "downloads": 21848,
+          "url": "https://huggingface.co/datasets/gsdf/EasyNegative",
+          "description": "Dataset"
+        },
+        {
+          "id": "togethercomputer/RedPajama-Data-1T",
+          "name": "togethercomputer/RedPajama-Data-1T",
+          "likes": 1200,
+          "downloads": 1845,
+          "url": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T",
+          "description": "Dataset"
+        },
+        {
+          "id": "FreedomIntelligence/medical-o1-reasoning-SFT",
+          "name": "FreedomIntelligence/medical-o1-reasoning-SFT",
+          "likes": 1185,
+          "downloads": 20673,
+          "url": "https://huggingface.co/datasets/FreedomIntelligence/medical-o1-reasoning-SFT",
+          "description": "Dataset"
+        },
+        {
+          "id": "roneneldan/TinyStories",
+          "name": "roneneldan/TinyStories",
+          "likes": 1166,
+          "downloads": 89823,
+          "url": "https://huggingface.co/datasets/roneneldan/TinyStories",
+          "description": "Dataset"
+        },
+        {
+          "id": "tatsu-lab/alpaca",
+          "name": "tatsu-lab/alpaca",
+          "likes": 1118,
+          "downloads": 115959,
+          "url": "https://huggingface.co/datasets/tatsu-lab/alpaca",
+          "description": "Dataset"
+        },
+        {
+          "id": "databricks/databricks-dolly-15k",
+          "name": "databricks/databricks-dolly-15k",
+          "likes": 1100,
+          "downloads": 63201,
+          "url": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+          "description": "Dataset"
+        },
+        {
+          "id": "allenai/dolma",
+          "name": "allenai/dolma",
+          "likes": 1087,
+          "downloads": 3892,
+          "url": "https://huggingface.co/datasets/allenai/dolma",
+          "description": "Dataset"
+        }
+      ],
+      "spaces": [
+        {
+          "id": "enzostvs/deepsite",
+          "name": "enzostvs/deepsite",
+          "likes": 16610,
+          "downloads": 0,
+          "url": "https://huggingface.co/spaces/enzostvs/deepsite",
+          "description": "docker"
+        },
+        {
+          "id": "open-llm-leaderboard/open_llm_leaderboard",
+          "name": "open-llm-leaderboard/open_llm_leaderboard",
+          "likes": 14113,
+          "downloads": 0,
+          "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+          "description": "docker"
+        },
+        {
+          "id": "jbilcke-hf/ai-comic-factory",
+          "name": "jbilcke-hf/ai-comic-factory",
+          "likes": 11268,
+          "downloads": 0,
+          "url": "https://huggingface.co/spaces/jbilcke-hf/ai-comic-factory",
+          "description": "docker"
+        },
+        {
+          "id": "Kwai-Kolors/Kolors-Virtual-Try-On",
+          "name": "Kwai-Kolors/Kolors-Virtual-Try-On",
+          "likes": 10180,
+          "downloads": 0,
+          "url": "https://huggingface.co/spaces/Kwai-Kolors/Kolors-Virtual-Try-On",
+          "description": "gradio"
+        },
+        {
+          "id": "black-forest-labs/FLUX.1-dev",
+          "name": "black-forest-labs/FLUX.1-dev",
+          "likes": 9557,
+          "downloads": 0,
+          "url": "https://huggingface.co/spaces/black-forest-labs/FLUX.1-dev",
+          "description": "gradio"
+        },
+        {
+          "id": "mteb/leaderboard",
+          "name": "mteb/leaderboard",
+          "likes": 7680,
+          "downloads": 0,
+          "url": "https://huggingface.co/spaces/mteb/leaderboard",
+          "description": "docker"
+        },
+        {
+          "id": "dalle-mini/dalle-mini",
+          "name": "dalle-mini/dalle-mini",
+          "likes": 5731,
+          "downloads": 0,
+          "url": "https://huggingface.co/spaces/dalle-mini/dalle-mini",
+          "description": "static"
+        },
+        {
+          "id": "AP123/IllusionDiffusion",
+          "name": "AP123/IllusionDiffusion",
+          "likes": 5451,
+          "downloads": 0,
+          "url": "https://huggingface.co/spaces/AP123/IllusionDiffusion",
+          "description": "gradio"
+        },
+        {
+          "id": "black-forest-labs/FLUX.1-schnell",
+          "name": "black-forest-labs/FLUX.1-schnell",
+          "likes": 5138,
+          "downloads": 0,
+          "url": "https://huggingface.co/spaces/black-forest-labs/FLUX.1-schnell",
+          "description": "gradio"
+        },
+        {
+          "id": "facebook/MusicGen",
+          "name": "facebook/MusicGen",
+          "likes": 5098,
+          "downloads": 0,
+          "url": "https://huggingface.co/spaces/facebook/MusicGen",
+          "description": "gradio"
+        },
+        {
+          "id": "lmarena-ai/arena-leaderboard",
+          "name": "lmarena-ai/arena-leaderboard",
+          "likes": 4995,
+          "downloads": 0,
+          "url": "https://huggingface.co/spaces/lmarena-ai/arena-leaderboard",
+          "description": "static"
+        },
+        {
+          "id": "microsoft/TRELLIS",
+          "name": "microsoft/TRELLIS",
+          "likes": 4775,
+          "downloads": 0,
+          "url": "https://huggingface.co/spaces/microsoft/TRELLIS",
+          "description": "gradio"
+        },
+        {
+          "id": "KingNish/OpenGPT-4o",
+          "name": "KingNish/OpenGPT-4o",
+          "likes": 4308,
+          "downloads": 0,
+          "url": "https://huggingface.co/spaces/KingNish/OpenGPT-4o",
+          "description": "gradio"
+        },
+        {
+          "id": "nanotron/ultrascale-playbook",
+          "name": "nanotron/ultrascale-playbook",
+          "likes": 4041,
+          "downloads": 0,
+          "url": "https://huggingface.co/spaces/nanotron/ultrascale-playbook",
+          "description": "static"
+        },
+        {
+          "id": "mrfakename/Z-Image-Turbo",
+          "name": "mrfakename/Z-Image-Turbo",
+          "likes": 3859,
+          "downloads": 0,
+          "url": "https://huggingface.co/spaces/mrfakename/Z-Image-Turbo",
+          "description": "gradio"
+        }
+      ]
     }
   },
   "items": {
     "deepseek-ai/DeepSeek-R1": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
-      "peak_likes": 14267,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
+      "peak_likes": 14274,
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
       "description": "text-generation"
     },
     "black-forest-labs/FLUX.1-dev": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 382,
-      "peak_likes": 14838,
+      "last_seen": "2026-09-21",
+      "days_seen": 384,
+      "peak_likes": 14860,
       "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
       "description": "text-to-image"
     },
     "stabilityai/stable-diffusion-xl-base-1.0": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
-      "peak_likes": 8195,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
+      "peak_likes": 8203,
       "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
       "description": "text-to-image"
     },
     "CompVis/stable-diffusion-v1-4": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
-      "peak_likes": 7090,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
+      "peak_likes": 7092,
       "url": "https://huggingface.co/CompVis/stable-diffusion-v1-4",
       "description": "text-to-image"
     },
     "meta-llama/Meta-Llama-3-8B": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
-      "peak_likes": 6690,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
+      "peak_likes": 6691,
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
       "description": "text-generation"
     },
     "hexgrad/Kokoro-82M": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
-      "peak_likes": 6960,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
+      "peak_likes": 6969,
       "url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "description": "text-to-speech"
     },
     "meta-llama/Llama-3.1-8B-Instruct": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
-      "peak_likes": 7754,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
+      "peak_likes": 7776,
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
       "description": "text-generation"
     },
     "openai/whisper-large-v3": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
-      "peak_likes": 6323,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
+      "peak_likes": 6326,
       "url": "https://huggingface.co/openai/whisper-large-v3",
       "description": "automatic-speech-recognition"
     },
     "black-forest-labs/FLUX.1-schnell": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 382,
-      "peak_likes": 5926,
+      "last_seen": "2026-09-21",
+      "days_seen": 384,
+      "peak_likes": 5945,
       "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
       "description": "text-to-image"
     },
     "sentence-transformers/all-MiniLM-L6-v2": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
-      "peak_likes": 6090,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
+      "peak_likes": 6093,
       "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "description": "sentence-similarity"
     },
@@ -13340,201 +13340,201 @@
     },
     "fka/prompts.chat": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
-      "peak_likes": 9834,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
+      "peak_likes": 9837,
       "url": "https://huggingface.co/datasets/fka/prompts.chat",
       "description": "Dataset"
     },
     "HuggingFaceFW/fineweb": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
-      "peak_likes": 3354,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
+      "peak_likes": 3357,
       "url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb",
       "description": "Dataset"
     },
     "Anthropic/hh-rlhf": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
-      "peak_likes": 2085,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
+      "peak_likes": 2091,
       "url": "https://huggingface.co/datasets/Anthropic/hh-rlhf",
       "description": "Dataset"
     },
     "Open-Orca/OpenOrca": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
       "peak_likes": 1605,
       "url": "https://huggingface.co/datasets/Open-Orca/OpenOrca",
       "description": "Dataset"
     },
     "OpenAssistant/oasst1": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
       "peak_likes": 1579,
       "url": "https://huggingface.co/datasets/OpenAssistant/oasst1",
       "description": "Dataset"
     },
     "openai/gsm8k": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
-      "peak_likes": 1653,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
+      "peak_likes": 1656,
       "url": "https://huggingface.co/datasets/openai/gsm8k",
       "description": "Dataset"
     },
     "gsdf/EasyNegative": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
       "peak_likes": 1225,
       "url": "https://huggingface.co/datasets/gsdf/EasyNegative",
       "description": "Dataset"
     },
     "wikimedia/wikipedia": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
-      "peak_likes": 1486,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
+      "peak_likes": 1491,
       "url": "https://huggingface.co/datasets/wikimedia/wikipedia",
       "description": "Dataset"
     },
     "togethercomputer/RedPajama-Data-1T": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
       "peak_likes": 1200,
       "url": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T",
       "description": "Dataset"
     },
     "FreedomIntelligence/medical-o1-reasoning-SFT": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
       "peak_likes": 1185,
       "url": "https://huggingface.co/datasets/FreedomIntelligence/medical-o1-reasoning-SFT",
       "description": "Dataset"
     },
     "allenai/dolma": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
       "peak_likes": 1087,
       "url": "https://huggingface.co/datasets/allenai/dolma",
       "description": "Dataset"
     },
     "HuggingFaceFW/fineweb-edu": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
-      "peak_likes": 1292,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
+      "peak_likes": 1295,
       "url": "https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu",
       "description": "Dataset"
     },
     "open-llm-leaderboard/open_llm_leaderboard": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
       "peak_likes": 14113,
       "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
       "description": "docker"
     },
     "jbilcke-hf/ai-comic-factory": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
       "peak_likes": 11268,
       "url": "https://huggingface.co/spaces/jbilcke-hf/ai-comic-factory",
       "description": "docker"
     },
     "Kwai-Kolors/Kolors-Virtual-Try-On": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
       "peak_likes": 10180,
       "url": "https://huggingface.co/spaces/Kwai-Kolors/Kolors-Virtual-Try-On",
       "description": "gradio"
     },
     "mteb/leaderboard": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
-      "peak_likes": 7678,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
+      "peak_likes": 7680,
       "url": "https://huggingface.co/spaces/mteb/leaderboard",
       "description": "docker"
     },
     "dalle-mini/dalle-mini": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
       "peak_likes": 5731,
       "url": "https://huggingface.co/spaces/dalle-mini/dalle-mini",
       "description": "static"
     },
     "AP123/IllusionDiffusion": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
       "peak_likes": 5451,
       "url": "https://huggingface.co/spaces/AP123/IllusionDiffusion",
       "description": "gradio"
     },
     "facebook/MusicGen": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
       "peak_likes": 5098,
       "url": "https://huggingface.co/spaces/facebook/MusicGen",
       "description": "gradio"
     },
     "microsoft/TRELLIS": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
       "peak_likes": 4776,
       "url": "https://huggingface.co/spaces/microsoft/TRELLIS",
       "description": "gradio"
     },
     "lmarena-ai/arena-leaderboard": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
-      "peak_likes": 4994,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
+      "peak_likes": 4995,
       "url": "https://huggingface.co/spaces/lmarena-ai/arena-leaderboard",
       "description": "static"
     },
     "KingNish/OpenGPT-4o": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
       "peak_likes": 4314,
       "url": "https://huggingface.co/spaces/KingNish/OpenGPT-4o",
       "description": "gradio"
     },
     "nanotron/ultrascale-playbook": {
       "first_seen": "2026-03-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 191,
-      "peak_likes": 4040,
+      "last_seen": "2026-09-21",
+      "days_seen": 192,
+      "peak_likes": 4041,
       "url": "https://huggingface.co/spaces/nanotron/ultrascale-playbook",
       "description": "static"
     },
     "roneneldan/TinyStories": {
       "first_seen": "2026-04-07",
-      "last_seen": "2026-09-20",
-      "days_seen": 165,
-      "peak_likes": 1164,
+      "last_seen": "2026-09-21",
+      "days_seen": 166,
+      "peak_likes": 1166,
       "url": "https://huggingface.co/datasets/roneneldan/TinyStories",
       "description": "Dataset"
     },
     "tatsu-lab/alpaca": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-09-20",
-      "days_seen": 118,
-      "peak_likes": 1117,
+      "last_seen": "2026-09-21",
+      "days_seen": 119,
+      "peak_likes": 1118,
       "url": "https://huggingface.co/datasets/tatsu-lab/alpaca",
       "description": "Dataset"
     },
@@ -13548,32 +13548,32 @@
     },
     "enzostvs/deepsite": {
       "first_seen": "2026-06-09",
-      "last_seen": "2026-09-20",
-      "days_seen": 103,
+      "last_seen": "2026-09-21",
+      "days_seen": 104,
       "peak_likes": 16618,
       "url": "https://huggingface.co/spaces/enzostvs/deepsite",
       "description": "docker"
     },
     "deepseek-ai/DeepSeek-V4-Pro": {
       "first_seen": "2026-06-12",
-      "last_seen": "2026-09-20",
-      "days_seen": 100,
-      "peak_likes": 5578,
+      "last_seen": "2026-09-21",
+      "days_seen": 101,
+      "peak_likes": 5583,
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
       "description": "text-generation"
     },
     "moonshotai/Kimi-K3": {
       "first_seen": "2026-07-28",
-      "last_seen": "2026-09-20",
-      "days_seen": 55,
-      "peak_likes": 11434,
+      "last_seen": "2026-09-21",
+      "days_seen": 56,
+      "peak_likes": 11451,
       "url": "https://huggingface.co/moonshotai/Kimi-K3",
       "description": "image-text-to-text"
     },
     "databricks/databricks-dolly-15k": {
       "first_seen": "2026-08-06",
-      "last_seen": "2026-09-20",
-      "days_seen": 46,
+      "last_seen": "2026-09-21",
+      "days_seen": 47,
       "peak_likes": 1100,
       "url": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
       "description": "Dataset"
@@ -13588,33 +13588,33 @@
     },
     "Qwen/Qwen3.8-27B": {
       "first_seen": "2026-08-15",
-      "last_seen": "2026-09-20",
-      "days_seen": 37,
-      "peak_likes": 15785,
+      "last_seen": "2026-09-21",
+      "days_seen": 38,
+      "peak_likes": 15877,
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
       "description": "image-text-to-text"
     },
     "mrfakename/Z-Image-Turbo": {
       "first_seen": "2026-09-11",
-      "last_seen": "2026-09-20",
-      "days_seen": 10,
-      "peak_likes": 3854,
+      "last_seen": "2026-09-21",
+      "days_seen": 11,
+      "peak_likes": 3859,
       "url": "https://huggingface.co/spaces/mrfakename/Z-Image-Turbo",
       "description": "gradio"
     },
     "MiniMaxAI/MiniMax-H3": {
       "first_seen": "2026-09-13",
-      "last_seen": "2026-09-20",
-      "days_seen": 8,
-      "peak_likes": 5499,
+      "last_seen": "2026-09-21",
+      "days_seen": 9,
+      "peak_likes": 5536,
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
       "description": "image-text-to-video"
     },
     "Qwen/Qwen3.8-Flash-Next": {
       "first_seen": "2026-09-17",
-      "last_seen": "2026-09-20",
-      "days_seen": 4,
-      "peak_likes": 5461,
+      "last_seen": "2026-09-21",
+      "days_seen": 5,
+      "peak_likes": 5507,
       "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
       "description": "image-text-to-text"
     }
